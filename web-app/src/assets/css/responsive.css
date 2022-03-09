@@ -1,0 +1,1206 @@
+@media(min-width:1400px) {
+    .container-fluid {
+        padding: 0 30px;
+    }
+
+    .container {
+        max-width: 1236px;
+    }
+
+    .how-works .container {
+        max-width: 1310px;
+    }
+
+    .message-main .container {
+        max-width: 1600px;
+    }
+    .contactDetails [class*="col-"]{
+        padding: 0 30px;
+    }
+    .contactDetails .row{
+        margin: 0 -30px;
+    }
+}
+
+@media(max-width:1680px) {
+    .topbar .top-left-content .brand-name {
+        margin-right: 30px;
+    }
+
+    .brand-name img {
+        height: 38px;
+    }
+
+    .topbar .searchFilter {
+        flex: 0 0 360px;
+    }
+
+    .topbar .top-right-content a {
+        margin-left: 20px;
+    }
+
+    header .navbar-nav .menu-inner h4 {
+        font-size: 18px;
+    }
+
+    .listingContent .col {
+        width: 25%;
+    }
+
+    .text-card .media-body {
+        font-size: 18px;
+    }
+
+    .text-card .icon {
+        width: 45px;
+    }
+
+    .file-upload+label {
+        min-height: 350px;
+    }
+
+    .heading3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .trackId {
+        font-size: 16px;
+    }
+
+    .timeline-order li {
+        padding: 24px 0;
+    }
+}
+
+@media(max-width:1440px) {
+    .listingContent .col {
+        width: 33.3%;
+    }
+
+    .card-step {
+        padding: 30px 15px;
+    }
+}
+
+
+@media(max-width:1399px) {
+    .topbar .delivery-to .text {
+        display: none;
+    }
+
+    .topbar .delivery-to .cta-deliver {
+        margin: 0;
+    }
+
+    header .cta-user .name {
+        display: none;
+    }
+
+    header .navbar .btn {
+        min-width: auto;
+    }
+
+    header .navbar .btn {
+        padding: 6px 12px;
+    }
+
+    header .navbar-nav .nav-item {
+        padding: 0 10px;
+    }
+
+    .card-how-work {
+        max-width: 220px;
+    }
+
+    .card-how-work .inner-content {
+        padding: 30px 20px;
+    }
+
+    .cardWork li:after {
+        right: -40%;
+    }
+
+    .card-how-work:after {
+        top: -25px;
+        left: -25px;
+    }
+
+    .card-detail {
+        padding: 20px;
+    }
+
+    .product-detail .content-card {
+        padding: 30px;
+    }
+
+}
+
+@media(max-width:1199px) {
+    header .navbar {
+        padding: 10px 0;
+    }
+
+    .topbar .top-right-content .cta-cart .media-body {
+        display: none;
+    }
+
+    .topbar .top-right-content .cta-cart .count {
+        margin-right: 5px;
+    }
+
+    .topbar .top-left-content .brand-name {
+        margin-right: 10px;
+    }
+
+    .brand-name img {
+        height: 30px;
+    }
+
+    .topbar .top-right-content .cta-more {
+        display: none;
+    }
+
+    .searchFilter .form-field {
+        display: none;
+    }
+
+    header .navbar-toggler {
+        display: inline-flex;
+    }
+
+    header .navbar-nav .dropdown-menu {
+        display: none;
+    }
+
+    header .navbar-collapse {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+        max-width: 400px;
+        width: 100%;
+        background-color: var(--dark-secondary);
+        overflow-y: auto;
+        transform: translate(-100%);
+        transition: all 0.3s;
+    }
+
+    header .navbar-collapse.show {
+        transform: translate(0);
+    }
+
+    header .collapse:not(.show) {
+        display: block;
+    }
+
+    header .navbar-nav .nav-item {
+        padding: 0;
+    }
+
+    header .navbar-nav .nav-item .nav-link {
+        padding: 10px 20px;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid var(--dark-42);
+    }
+
+    header .navbar-nav .nav-item:hover .dropdown-menu.show {
+        display: block;
+        position: relative;
+    }
+
+    header .navbar-nav .menu-inner {
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    header .navbar-nav .menu-inner .row {
+        margin: 0;
+    }
+
+    header .navbar-nav .menu-inner .row [class*="col-"] {
+        padding: 0 15px;
+    }
+
+    header .navbar-nav .menu-inner .quick-links li a {
+        width: 100%;
+        padding: 0 0 0 20px;
+    }
+
+    header .navbar-nav .menu-inner h4 {
+        margin: 0 0 10px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    header .navbar-nav .menu-inner ul {
+        margin-bottom: 15px;
+    }
+
+    .menu-header {
+        padding: 15px;
+    }
+
+    .howItWorks .content-card {
+        padding: 40px 50px;
+    }
+
+    .topbar .searchFilter {
+        flex: inherit;
+    }
+
+    .cardWork {
+        max-width: 832px;
+    }
+
+    .cardWork li:after {
+        right: -22%;
+    }
+
+    .listingWrapper {
+        flex-direction: column;
+    }
+
+    .filter-sidebar {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .filter-sidebar .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        background: var(--dark-42);
+        box-shadow: var(--shadow-1);
+        border-radius: 20px;
+    }
+
+    .filter-sidebar .form-row .card-filter {
+        box-shadow: none;
+        border: none;
+        padding: 0 10px;
+    }
+
+    .filterBody {
+        padding: 6px 0 0;
+    }
+
+    .filter-sidebar .card-filter h4 {
+        margin: 0;
+        border: none;
+    }
+
+    .card-filter h4:after {
+        content: none;
+    }
+
+    .listingContent {
+        padding: 30px 0;
+    }
+
+    .steps-works {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .steps-works li {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+
+    .steps-works li:after {
+        content: none;
+    }
+
+    .asanPrder .steps-works li {
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+
+    .prescription-card {
+        padding: 30px;
+    }
+
+    .file-upload+label {
+        min-height: auto;
+    }
+
+    .message-main .media-body {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .order-card {
+        margin-top: 30px;
+    }
+
+    .register-form {
+        padding: 40px 50px;
+    }
+
+    .custom-form .cta-back {
+        left: 14px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .cardpproduct .pruductImage {
+        height: 118px;
+        min-height: 118px;
+        padding: 10px;
+    }
+
+    .control .swiper-button-next,
+    .control .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .cardFooter .price {
+        line-height: 1.2;
+    }
+
+    .hero-main .heroSlider {
+        padding: 15px 0 40px;
+    }
+
+    .cardWork {
+        max-width: 650px;
+    }
+
+    .card-how-work .inner-content {
+        padding: 20px 15px;
+    }
+
+    .howItWorks .content-card {
+        padding: 40px 30px;
+    }
+
+    .card-how-work {
+        max-width: 180px;
+    }
+
+    .card-how-work i img {
+        height: 60px;
+    }
+
+    .card-how-work p {
+        font-size: 13px;
+    }
+
+    .card-how-work:after {
+        top: -15px;
+        left: -15px;
+    }
+
+    .cardWork li:after {
+        content: url(https://api.iconify.design/bi/arrow-right.svg?color=white&width=24&height=24);
+        right: -17%;
+
+    }
+
+    .howItWorks .caption {
+        margin-bottom: 50px;
+    }
+
+    .howItWorks .caption {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    footer .footer-content-header {
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+
+    footer .footer-content-header .brand-footer {
+        margin: 0;
+    }
+
+    .product-detail .image-box {
+        padding: 50px;
+        height: auto;
+    }
+
+    .test-detail h5 {
+        margin-top: 20px;
+    }
+
+    .modal-content .modalheader {
+        padding: 15px 20px;
+    }
+
+    #uploadprescription .modal-body {
+        padding: 0 20px;
+    }
+
+    .message-main .media {
+        flex-direction: column;
+    }
+
+    .message-main .media img {
+        margin-bottom: 15px;
+    }
+
+    .quantity-spinner {
+        justify-content: flex-end;
+    }
+
+    .media-cart .media-body {
+        padding-right: 0;
+    }
+
+    .registerPage .img-holder {
+        display: none;
+    }
+
+    .card-filter h4 {
+        font-size: 16px;
+    }
+
+    .docs_mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width:220px;
+        margin: 30px auto;
+    }
+}
+
+
+
+@media(max-width:767px) {
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    .top-right-content .cta-user {
+        display: none;
+    }
+
+    .cardWork {
+        flex-direction: column;
+    }
+
+    .card-how-work {
+        max-width: 260px;
+    }
+
+    .card-how-work p {
+        font-size: 1rem;
+    }
+
+    .card-how-work .inner-content {
+
+        padding: 45px 36px;
+    }
+
+    .card-how-work:after {
+        top: -38px;
+        left: -38px;
+    }
+
+    .cardWork li {
+        margin-top: 100px;
+    }
+
+    .cardWork li:after {
+        content: url(https://api.iconify.design/bi/arrow-right.svg?color=white&width=24&height=24);
+        right: auto;
+        bottom: -66px;
+        top: auto;
+        transform: translate(-50%, -50%) rotate(90deg);
+        left: 50%;
+    }
+
+    .howItWorks .caption {
+        margin: 0;
+    }
+
+    .howItWorks .caption {
+        text-align: center;
+    }
+
+    footer ul {
+        margin-bottom: 20px;
+    }
+
+    .copyrights .row {
+        flex-direction: column-reverse;
+    }
+
+    .copyrights p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .copyrights .payment-options {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    footer h4 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .product-detail .image-box {
+        height: 300px;
+        margin: 0 auto 30px;
+
+    }
+
+    .product-detail .image-box img {
+        max-height: 100%;
+        height: 100%;
+    }
+
+    .card-detail {
+        margin-top: 30px;
+    }
+
+    .customTabs li {
+        padding: 0 6px;
+    }
+
+    .customTabs li button {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    .customTabs {
+        margin: 0 -6px 15px;
+    }
+
+    .listingContent .col {
+        width: 50%;
+    }
+
+    .card-step .icon img {
+        height: 40px;
+    }
+
+    .card-step .icon {
+        margin-bottom: 20px;
+    }
+
+    .card-step p {
+        font-size: 14px;
+    }
+
+    .how-works .steps-works {
+        margin: -130px -15px 0;
+    }
+
+    .message-main .media-body {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .media-cart {
+        flex-direction: column;
+    }
+
+    .media-cart .media-body {
+        padding: 15px 0 0;
+    }
+
+    .quantity-spinner {
+        justify-content: flex-start;
+    }
+
+    .timeline-order {
+        padding-left: 0;
+    }
+
+    header .userInfo {
+        display: flex;
+        align-items: center;
+    }
+
+    header .userInfo .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-flex;
+        margin-right: 15px;
+    }
+
+    header .userInfo .name {
+        color: var(--white);
+        display: block;
+    }
+
+    header .userInfo {
+        padding: 15px;
+        background-color: #4b4b4b;
+    }
+
+    header .userInfo .cta {
+        color: var(--primary);
+    }
+
+    .account-setting a {
+        margin-right: 10px;
+    }
+
+    .form-row {
+        margin: 0 -8px;
+    }
+
+    .form-row [class*="col-"] {
+        padding: 0 8px;
+    }
+}
+
+@media(max-width:575px) {
+    header .navbar-toggler {
+        margin-left: 5px;
+    }
+
+    header .navbar-toggler svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .topbar .top-right-content a {
+        margin-left: 5px;
+    }
+
+    .topbar .delivery-to span {
+        font-size: 12px;
+    }
+
+    .topbar .top-right-content {
+        flex: inherit;
+    }
+
+    .container-fluid {
+        padding: 0 15px;
+    }
+
+    .top-right-content .dropdown {
+        display: none;
+    }
+
+    header .quick-find a.cta i:first-of-type {
+        display: none;
+    }
+
+    .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+    }
+
+    .hero-main .heroSlider {
+        padding: 15px 0 25px;
+    }
+
+    .hero-main .swiper-pagination {
+        bottom: 4px;
+    }
+
+    .primary-heading {
+        font-size: 18px;
+    }
+
+    .products-holder {
+        padding: 0;
+    }
+
+    .products-holder .control {
+        display: none;
+    }
+
+    .card-how-work:after {
+        top: -22px;
+        left: -22px;
+    }
+
+    .copyrights {
+        background-color: var(--dark);
+        padding: 8px 0;
+        margin-top: 0;
+    }
+
+    .card-brands .control {
+        display: none;
+    }
+
+    .content-card {
+        background-color: transparent;
+        padding: 15px 0;
+    }
+
+    .cardFooter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cardBody {
+        padding: 8px 0;
+    }
+
+    .cardpproduct {
+        padding: 15px 10px;
+    }
+
+    .cardFooter .media-body {
+        margin-bottom: 5px;
+    }
+
+    .badge-label {
+        padding: 3px 12px;
+        font-size: 12px;
+    }
+
+    .caption {
+        padding: 0;
+    }
+
+    .caption h3 {
+        font-size: 26px;
+    }
+
+    .cardpproduct .pruductImage {
+        min-height: 100px;
+        height: 100px;
+    }
+
+    .howItWorks .content-card {
+        padding: 20px;
+    }
+
+    .cardFooter .btn {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+
+    .cardpproduct .name,
+    .cardpproduct .size {
+        font-size: 14px;
+    }
+
+    .content-card .title {
+        margin-bottom: 5px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .sliderWrapper {
+        padding: 0;
+    }
+
+    .info-card h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .info-card .brand {
+        margin-bottom: 10px;
+    }
+
+    .info-card .price {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .variationBtn {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+
+    .product-detail .content-card {
+        padding: 15px;
+    }
+
+    .customTabs li button {
+        margin-bottom: 5px;
+    }
+
+    .customTabs li {
+        padding: 0 2px;
+    }
+
+    .customTabs li button {
+        font-size: 14px;
+        padding: 5px 6px;
+    }
+
+    .card-detail {
+        padding: 15px;
+    }
+
+    .product-detail {
+        padding: 12.5px 0;
+    }
+
+    .steps-works li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .heading-page .caption p {
+        font-size: 20px;
+    }
+
+    .heading-page {
+        padding: 30px 0 112px;
+        min-height: auto;
+    }
+
+    .asanPrder .steps-works li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .how-works .steps-works {
+        margin: -90px -15px 0;
+    }
+
+    .document-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .document-footer .media-body li {
+        padding: 8px 0;
+    }
+
+    .document-footer .media-body {
+        width: 100%;
+    }
+
+    .document-footer .btn {
+        margin-left: auto;
+        margin-top: 15px;
+    }
+
+    .btn {
+        padding: 4px 10px;
+        min-height: 38px;
+        font-size: 14px;
+    }
+
+    .document-footer .btn {
+        min-width: 124px;
+    }
+
+    .modal-content .modalheader .modal-title {
+        font-size: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    #uploadprescription .modal-body {
+        padding: 0 15px;
+    }
+
+    .modal-content .modalheader {
+        padding: 15px;
+    }
+
+    .media-step {
+        flex-direction: column;
+    }
+
+    .media-step .icon-card {
+        margin: 0 0 15px;
+    }
+
+    .media-step .icon-card img {
+        width: 70px;
+    }
+
+    .media-step .icon-card {
+        height: 160px;
+    }
+
+    .media-step .media-body h4 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+
+    .media-step .media-body p {
+        margin-bottom: 12px;
+    }
+
+    .media-step {
+        margin-bottom: 80px;
+    }
+
+    .media-step:after {
+        bottom: -60px;
+    }
+
+    .compoundOrder h3 {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .cartItems .row {
+        align-items: flex-end;
+    }
+
+    .quantity-spinner {
+        margin-top: 20px;
+    }
+
+    .quantity-spinner .input-spinner {
+        margin: 0;
+    }
+
+    .order-card {
+        padding: 15px;
+    }
+
+    .order-card .card-body ul li {
+        font-size: 16px;
+    }
+
+    .title h2 {
+        font-size: 22px;
+    }
+
+    .cta-underline {
+        font-size: 14px;
+    }
+
+    .cartItems {
+        border-bottom: 1px solid var(--gray);
+        padding: 20px 0;
+    }
+
+    .shipping-process li .icon {
+        width: 35px;
+        height: 35px;
+        padding: 0;
+    }
+
+    .shipping-process li .media-body h4 {
+        font-size: 14px;
+    }
+
+    .shipping-process li.active .media-body p {
+        font-size: 12px;
+    }
+
+    .order-card {
+        padding: 0;
+    }
+
+    .custom-form .cta-back {
+        left: auto;
+        top: auto;
+        position: relative;
+        margin-bottom: 8px;
+        display: inline-flex;
+    }
+
+    .register-form {
+        padding: 15px 0;
+        border: none;
+    }
+
+    .cardpproduct .cardFooter {
+        flex-direction: row;
+    }
+
+    .hero-main {
+        padding: 0;
+    }
+
+    .content-card {
+        padding: 8px 0;
+    }
+
+    .caption {
+        margin-bottom: 15px;
+    }
+
+    .topbrands {
+        margin-bottom: 0
+    }
+
+    .cardpproduct .cardFooter .btn {
+        min-width: 70px;
+    }
+
+    header .navbar-collapse {
+        max-width: 80vw;
+    }
+
+    .track-order {
+        margin: 20px 0;
+    }
+
+    .track-order:before {
+        height: 12px;
+    }
+
+    .track-order li i {
+        width: 12px;
+        height: 12px;
+    }
+
+    .track-order:before {
+        height: 15px;
+        top: 14px;
+    }
+
+    .track-order li .icon {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 5px;
+    }
+
+    .track-order li.active .icon i img {
+        max-width: 24px;
+    }
+
+    .track-order li p {
+        font-size: 14px;
+    }
+
+    .timeline-order li .media-body {
+        font-size: 14px;
+    }
+
+    .timeline-order li span {
+        width: 26px;
+        height: 26px;
+    }
+
+    .timeline-order li:before,
+    .timeline-order li:after {
+        left: 13px;
+    }
+
+    .timeline-order li {
+        padding: 12px 0;
+    }
+
+    .trackCard .heading3 {
+        margin-bottom: 10px;
+    }
+
+    .primary-heading:before {
+        width: 20px;
+    }
+
+    .topbar .top-left-content .brand-name {
+        margin-right: 16px;
+    }
+
+    .filter-sidebar .form-row .card-filter,
+    .filter-sidebar .form-row {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .listing-detail .content-card {
+        padding: 15px 0;
+    }
+
+    .brandList {
+        padding: 5px 15px 15px;
+        border: 1px solid var(--gray);
+        border-radius: 5px;
+        min-height: 100px;
+    }
+
+    .filter-sidebar h3 {
+        font-size: 16px;
+        line-height: 5px;
+    }
+
+    .range-filter li {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .range-filter li span {
+        font-size: 13px;
+    }
+
+    .range-filter {
+        margin-top: 13px;
+    }
+
+    .card-filter h4 {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 0 3px;
+    }
+
+    .check-style+label {
+        font-size: 13px;
+    }
+
+    .card-filter .brandList {
+        padding: 5px 10px;
+    }
+
+    .card-filter .check-style:checked+label .check {
+        top: 0;
+    }
+
+    .content-text {
+        padding: 0;
+        border: none;
+    }
+
+    .content-text p {
+        margin-bottom: 16px;
+    }
+
+    .heading-title {
+        margin-bottom: 24px;
+    }
+
+    .prescription-card .caption h4 {
+        font-size: 18px;
+    }
+
+    .prescription-card .caption p {
+        font-size: 16px;
+    }
+
+    .file-upload+label span.icon {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 10px;
+    }
+
+    .file-upload+label {
+        border-width: 1px;
+    }
+
+    .file-upload+label {
+        padding: 15px;
+    }
+
+    .file-upload+label .support .file-upload+label h4 {
+        font-size: 14px;
+    }
+    .accordion-button{
+        padding:1rem 0;
+    }
+    .accordion-body{
+        padding: 0;
+    }
+}
