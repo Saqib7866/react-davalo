@@ -4,12 +4,12 @@ import Topbar from './Topbar';
 const Header = () => {
     return (<header>
   <div className="container-fluid">
-        <Topbar/>
+    <Topbar/>
     <nav className="navbar navbar-expand-xl">
       <div className="quick-find dropdown">
       <Link  to="#" className="cta" data-bs-toggle="dropdown" aria-expanded="false"><i><span className="iconify" data-icon="ic:round-manage-search" /></i>
           <span className="text">Browse All Catageries</span><i><span className="iconify" data-icon="ri:arrow-down-s-line" /></i>
-        </Link>
+       </Link>
         <div className="dropdown-menu quick-finds-links" aria-labelledby="dropdownMenuButton1">
           <ul>
             <li><Link  to="listing.html">Medicines </Link></li>

@@ -1,7 +1,6 @@
 import React from 'react'
 import {  Link } from "react-router-dom";
 import Logo from "../assets/images/logo.png"
-import Cart1 from "../assets/images/products/cart1.png"
 import Avatar from "../assets/images/avatar.png"
 import MyCartMenu from './MyCartMenu';
 const Topbar = () => {
