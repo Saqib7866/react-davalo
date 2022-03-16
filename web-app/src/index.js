@@ -10,11 +10,10 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Header from './components/Header';
+import Header from './components/Header/Header';
 ReactDOM.render(
   <>
   <BrowserRouter>
-  
   <Header/>
     <Routes>
       <Route path="/" element={<App />} />

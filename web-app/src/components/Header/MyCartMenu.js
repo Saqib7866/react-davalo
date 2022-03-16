@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {  Link } from "react-router-dom";
-import Cart1 from "../assets/images/products/cart1.png"
+import Cart1 from "../../assets/images/products/cart1.png"
 const MyCartMenu = () => {
   return (
     <div className="dropdown-menu cart-dropdown" aria-labelledby="dropdownMenuButton1">

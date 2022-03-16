@@ -9,9 +9,11 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper";
-import slider1 from '../assets/images/hero-slider/slider1.png'
+import slider1 from '../../assets/images/hero-slider/slider1.png'
 const HeroMain = () => {
     return (
+      <section class="hero-main">
+      <div class="container-fluid">
         <Swiper
         spaceBetween={30}
         pagination={{
@@ -31,6 +33,8 @@ const HeroMain = () => {
             </div>
         </SwiperSlide>
       </Swiper>
+      </div>
+      </section>
       
     )
 }
