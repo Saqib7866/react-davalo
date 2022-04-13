@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Brand from '../../assets/images/brands/brand1.png'
 import { Pagination } from "swiper";
 // Import Swiper styles
 import "swiper/css";

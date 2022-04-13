@@ -1,8 +1,5 @@
 import React from "react";
-
-import { Link } from "react-router-dom";
-import Product from "../../assets/images/products/product1.png";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react";
 
 import { Pagination } from "swiper";
 const HerbalProduct = () => {
